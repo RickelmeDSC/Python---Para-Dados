@@ -2,15 +2,14 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Commit Rápido",
-      "type": "process",
-      "command": "powershell",
-      "args": [
-        "-Command",
-        "git add . ; git commit -m 'Atualização automática' ; git push"
-      ],
+      "label": "Commit Rápido - Python Dados",
+      "type": "shell",
+      "command": "git add . ; git commit -m \"Atualização: Exercícios Python\" ; git push",
       "problemMatcher": [],
-      "group": "none"
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     }
   ]
 }
