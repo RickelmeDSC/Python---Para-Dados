@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Commit Rápido",
+      "type": "process",
+      "command": "powershell",
+      "args": [
+        "-Command",
+        "git add . ; git commit -m 'Atualização automática' ; git push"
+      ],
+      "problemMatcher": [],
+      "group": "none"
+    }
+  ]
+}
